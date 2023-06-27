@@ -1,0 +1,88 @@
+
+* {
+    box-sizing: border-box;
+    margin: 20;
+    padding: 0;
+  }
+
+  #box {
+    background-color: rgb(151, 233, 160);
+    padding: 0px;
+    height: 200px;
+    margin-top: 10px;
+    overflow: auto;
+  }
+/***********Base Style***************/
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font: 1.75em sans-serif;
+}
+
+.header{
+    background-color: rgb(152, 199, 232);
+    width: 30%;
+    text-align: center;
+    border: 1 px solid black;
+    padding: 0px 0px 0px 0px;
+    margin-right: 0px;
+    margin-bottom: -30px;
+    float: right;
+    height: 30px;
+    font: 1.25em sans-serif;
+}
+
+.container{
+    padding: 0px 5% 0px 5% ;
+    width:100%;
+    border:none;
+}
+
+div {margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+p {margin-top: 35px;
+}
+.mainbody{
+    margin-top: 50 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********Desktop Devices**************/
+@media (min-width: 992px) {
+.col-lg-1,.col-lg-2,.col-lg-3 {
+    float: left;
+}
+.col-lg-1 {
+    width: 30%;
+}
+.col-lg-2 {
+    width: 30%;
+}
+.col-lg-3 {
+    width: 30%;
+}
+}
+
+/***********Tablet Devices************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1,.col-md-2,.col-md-3 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 45%;
+    }
+    .col-md-2 {
+        width: 45%;
+    }
+    .col-md-3 {
+        width: 92%;
+    }
+}
+
+/************Mobile Devices**************/
+@media (max-width: 767px) {
+
+}
